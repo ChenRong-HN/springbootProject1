@@ -1,0 +1,55 @@
+2023-10-21 15:49:59.890  INFO 25128 --- [main] com.yc.dao.TestDb                        : Starting TestDb using Java 1.8.0_382 on LAPTOP-30CH2D84 with PID 25128 (started by 28894 in C:\Users\28894\Documents\Javaworkspace\springbootProject1)
+2023-10-21 15:49:59.891 DEBUG 25128 --- [main] com.yc.dao.TestDb                        : Running with Spring Boot v2.7.16, Spring v5.3.30
+2023-10-21 15:49:59.891  INFO 25128 --- [main] com.yc.dao.TestDb                        : The following 1 profile is active: "prod"
+2023-10-21 15:50:01.152 DEBUG 25128 --- [main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-10-21 15:50:01.168 DEBUG 25128 --- [main] _.s.web.servlet.HandlerMapping.Mappings  : 'beanNameHandlerMapping' {}
+2023-10-21 15:50:01.189 DEBUG 25128 --- [main] _.s.web.servlet.HandlerMapping.Mappings  : 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2023-10-21 15:50:01.279  INFO 25128 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-10-21 15:50:01.676 DEBUG 25128 --- [main] druid.sql.Connection                     : {conn-10001,procId-23} connected
+2023-10-21 15:50:01.682 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10001, stmt-20000} created
+2023-10-21 15:50:01.844 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10001, stmt-20000, rs-50000} query executed. 161.1295 millis. select 'x'
+2023-10-21 15:50:01.845 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10001, stmt-20000, rs-50000} open
+2023-10-21 15:50:01.846 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10001, stmt-20000, rs-50000} Header: [x]
+2023-10-21 15:50:01.847 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10001, stmt-20000, rs-50000} closed
+2023-10-21 15:50:01.847 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10001, stmt-20000} closed
+2023-10-21 15:50:01.850 DEBUG 25128 --- [main] druid.sql.Connection                     : {conn-10002,procId-24} connected
+2023-10-21 15:50:01.850 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10002, stmt-20001} created
+2023-10-21 15:50:01.851 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10002, stmt-20001, rs-50001} query executed. 0.4396 millis. select 'x'
+2023-10-21 15:50:01.851 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10002, stmt-20001, rs-50001} open
+2023-10-21 15:50:01.851 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10002, stmt-20001, rs-50001} Header: [x]
+2023-10-21 15:50:01.851 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10002, stmt-20001, rs-50001} closed
+2023-10-21 15:50:01.851 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10002, stmt-20001} closed
+2023-10-21 15:50:01.853 DEBUG 25128 --- [main] druid.sql.Connection                     : {conn-10003,procId-25} connected
+2023-10-21 15:50:01.853 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10003, stmt-20002} created
+2023-10-21 15:50:01.854 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10003, stmt-20002, rs-50002} query executed. 0.4523 millis. select 'x'
+2023-10-21 15:50:01.854 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10003, stmt-20002, rs-50002} open
+2023-10-21 15:50:01.854 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10003, stmt-20002, rs-50002} Header: [x]
+2023-10-21 15:50:01.854 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10003, stmt-20002, rs-50002} closed
+2023-10-21 15:50:01.854 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10003, stmt-20002} closed
+2023-10-21 15:50:01.856 DEBUG 25128 --- [main] druid.sql.Connection                     : {conn-10004,procId-26} connected
+2023-10-21 15:50:01.857 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10004, stmt-20003} created
+2023-10-21 15:50:01.857 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10004, stmt-20003, rs-50003} query executed. 0.2756 millis. select 'x'
+2023-10-21 15:50:01.857 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10004, stmt-20003, rs-50003} open
+2023-10-21 15:50:01.857 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10004, stmt-20003, rs-50003} Header: [x]
+2023-10-21 15:50:01.857 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10004, stmt-20003, rs-50003} closed
+2023-10-21 15:50:01.857 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10004, stmt-20003} closed
+2023-10-21 15:50:01.859 DEBUG 25128 --- [main] druid.sql.Connection                     : {conn-10005,procId-27} connected
+2023-10-21 15:50:01.859 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10005, stmt-20004} created
+2023-10-21 15:50:01.860 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10005, stmt-20004, rs-50004} query executed. 0.2885 millis. select 'x'
+2023-10-21 15:50:01.860 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10005, stmt-20004, rs-50004} open
+2023-10-21 15:50:01.860 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10005, stmt-20004, rs-50004} Header: [x]
+2023-10-21 15:50:01.860 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10005, stmt-20004, rs-50004} closed
+2023-10-21 15:50:01.860 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10005, stmt-20004} closed
+2023-10-21 15:50:01.863  INFO 25128 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-10-21 15:50:02.000  INFO 25128 --- [main] com.yc.dao.TestDb                        : Started TestDb in 2.515 seconds (JVM running for 3.227)
+2023-10-21 15:50:02.229 DEBUG 25128 --- [main] druid.sql.Connection                     : {conn-10005} pool-connect
+2023-10-21 15:50:02.230  INFO 25128 --- [main] com.yc.dao.TestDb                        : com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3166f664
+2023-10-21 15:50:02.238  INFO 25128 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-10-21 15:50:02.245 DEBUG 25128 --- [SpringApplicationShutdownHook] druid.sql.Connection                     : {conn-10001} closed
+2023-10-21 15:50:02.245 DEBUG 25128 --- [SpringApplicationShutdownHook] druid.sql.Connection                     : {conn-10002} closed
+2023-10-21 15:50:02.245 DEBUG 25128 --- [SpringApplicationShutdownHook] druid.sql.Connection                     : {conn-10003} closed
+2023-10-21 15:50:02.245 DEBUG 25128 --- [SpringApplicationShutdownHook] druid.sql.Connection                     : {conn-10004} closed
+2023-10-21 15:50:02.246  INFO 25128 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

@@ -1,55 +1,104 @@
-2023-10-21 15:49:59.890  INFO 25128 --- [main] com.yc.dao.TestDb                        : Starting TestDb using Java 1.8.0_382 on LAPTOP-30CH2D84 with PID 25128 (started by 28894 in C:\Users\28894\Documents\Javaworkspace\springbootProject1)
-2023-10-21 15:49:59.891 DEBUG 25128 --- [main] com.yc.dao.TestDb                        : Running with Spring Boot v2.7.16, Spring v5.3.30
-2023-10-21 15:49:59.891  INFO 25128 --- [main] com.yc.dao.TestDb                        : The following 1 profile is active: "prod"
-2023-10-21 15:50:01.152 DEBUG 25128 --- [main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	o.s.b.a.w.s.e.BasicErrorController:
-	{ [/error]}: error(HttpServletRequest)
-	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
-2023-10-21 15:50:01.168 DEBUG 25128 --- [main] _.s.web.servlet.HandlerMapping.Mappings  : 'beanNameHandlerMapping' {}
-2023-10-21 15:50:01.189 DEBUG 25128 --- [main] _.s.web.servlet.HandlerMapping.Mappings  : 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
-2023-10-21 15:50:01.279  INFO 25128 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2023-10-21 15:50:01.676 DEBUG 25128 --- [main] druid.sql.Connection                     : {conn-10001,procId-23} connected
-2023-10-21 15:50:01.682 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10001, stmt-20000} created
-2023-10-21 15:50:01.844 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10001, stmt-20000, rs-50000} query executed. 161.1295 millis. select 'x'
-2023-10-21 15:50:01.845 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10001, stmt-20000, rs-50000} open
-2023-10-21 15:50:01.846 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10001, stmt-20000, rs-50000} Header: [x]
-2023-10-21 15:50:01.847 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10001, stmt-20000, rs-50000} closed
-2023-10-21 15:50:01.847 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10001, stmt-20000} closed
-2023-10-21 15:50:01.850 DEBUG 25128 --- [main] druid.sql.Connection                     : {conn-10002,procId-24} connected
-2023-10-21 15:50:01.850 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10002, stmt-20001} created
-2023-10-21 15:50:01.851 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10002, stmt-20001, rs-50001} query executed. 0.4396 millis. select 'x'
-2023-10-21 15:50:01.851 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10002, stmt-20001, rs-50001} open
-2023-10-21 15:50:01.851 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10002, stmt-20001, rs-50001} Header: [x]
-2023-10-21 15:50:01.851 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10002, stmt-20001, rs-50001} closed
-2023-10-21 15:50:01.851 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10002, stmt-20001} closed
-2023-10-21 15:50:01.853 DEBUG 25128 --- [main] druid.sql.Connection                     : {conn-10003,procId-25} connected
-2023-10-21 15:50:01.853 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10003, stmt-20002} created
-2023-10-21 15:50:01.854 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10003, stmt-20002, rs-50002} query executed. 0.4523 millis. select 'x'
-2023-10-21 15:50:01.854 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10003, stmt-20002, rs-50002} open
-2023-10-21 15:50:01.854 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10003, stmt-20002, rs-50002} Header: [x]
-2023-10-21 15:50:01.854 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10003, stmt-20002, rs-50002} closed
-2023-10-21 15:50:01.854 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10003, stmt-20002} closed
-2023-10-21 15:50:01.856 DEBUG 25128 --- [main] druid.sql.Connection                     : {conn-10004,procId-26} connected
-2023-10-21 15:50:01.857 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10004, stmt-20003} created
-2023-10-21 15:50:01.857 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10004, stmt-20003, rs-50003} query executed. 0.2756 millis. select 'x'
-2023-10-21 15:50:01.857 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10004, stmt-20003, rs-50003} open
-2023-10-21 15:50:01.857 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10004, stmt-20003, rs-50003} Header: [x]
-2023-10-21 15:50:01.857 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10004, stmt-20003, rs-50003} closed
-2023-10-21 15:50:01.857 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10004, stmt-20003} closed
-2023-10-21 15:50:01.859 DEBUG 25128 --- [main] druid.sql.Connection                     : {conn-10005,procId-27} connected
-2023-10-21 15:50:01.859 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10005, stmt-20004} created
-2023-10-21 15:50:01.860 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10005, stmt-20004, rs-50004} query executed. 0.2885 millis. select 'x'
-2023-10-21 15:50:01.860 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10005, stmt-20004, rs-50004} open
-2023-10-21 15:50:01.860 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10005, stmt-20004, rs-50004} Header: [x]
-2023-10-21 15:50:01.860 DEBUG 25128 --- [main] druid.sql.ResultSet                      : {conn-10005, stmt-20004, rs-50004} closed
-2023-10-21 15:50:01.860 DEBUG 25128 --- [main] druid.sql.Statement                      : {conn-10005, stmt-20004} closed
-2023-10-21 15:50:01.863  INFO 25128 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2023-10-21 15:50:02.000  INFO 25128 --- [main] com.yc.dao.TestDb                        : Started TestDb in 2.515 seconds (JVM running for 3.227)
-2023-10-21 15:50:02.229 DEBUG 25128 --- [main] druid.sql.Connection                     : {conn-10005} pool-connect
-2023-10-21 15:50:02.230  INFO 25128 --- [main] com.yc.dao.TestDb                        : com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3166f664
-2023-10-21 15:50:02.238  INFO 25128 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2023-10-21 15:50:02.245 DEBUG 25128 --- [SpringApplicationShutdownHook] druid.sql.Connection                     : {conn-10001} closed
-2023-10-21 15:50:02.245 DEBUG 25128 --- [SpringApplicationShutdownHook] druid.sql.Connection                     : {conn-10002} closed
-2023-10-21 15:50:02.245 DEBUG 25128 --- [SpringApplicationShutdownHook] druid.sql.Connection                     : {conn-10003} closed
-2023-10-21 15:50:02.245 DEBUG 25128 --- [SpringApplicationShutdownHook] druid.sql.Connection                     : {conn-10004} closed
-2023-10-21 15:50:02.246  INFO 25128 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-11-13 19:24:58.057  INFO 29208 --- [restartedMain] com.yc.ResApp                            : Starting ResApp using Java 1.8.0_382 on LAPTOP-30CH2D84 with PID 29208 (C:\Users\28894\Documents\Javaworkspace\springbootproject1\target\classes started by 28894 in C:\Users\28894\Documents\Javaworkspace\springbootProject1)
+2023-11-13 19:24:58.065  INFO 29208 --- [restartedMain] com.yc.ResApp                            : No active profile set, falling back to 1 default profile: "default"
+2023-11-13 19:24:58.118  WARN 29208 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 122:12]
+2023-11-13 19:24:58.119  INFO 29208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-13 19:24:58.120  INFO 29208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-13 19:24:58.997  INFO 29208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-13 19:24:59.000  INFO 29208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-13 19:24:59.025  INFO 29208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-11-13 19:24:59.626  INFO 29208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-13 19:24:59.635  INFO 29208 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-13 19:24:59.636  INFO 29208 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-11-13 19:24:59.727  INFO 29208 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-13 19:24:59.727  INFO 29208 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1607 ms
+2023-11-13 19:24:59.942  INFO 29208 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-11-13 19:25:00.708  INFO 29208 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-11-13 19:25:02.541  INFO 29208 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-13 19:25:03.764  INFO 29208 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-13 19:25:03.788  INFO 29208 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-11-13 19:25:04.049  INFO 29208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-13 19:25:04.051  INFO 29208 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-11-13 19:25:04.074  INFO 29208 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-11-13 19:25:04.113  INFO 29208 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-11-13 19:25:04.310  INFO 29208 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addCartUsingGET_1
+2023-11-13 19:25:04.315  INFO 29208 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addCartUsingPOST_1
+2023-11-13 19:25:04.334  INFO 29208 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPageUsingGET_1
+2023-11-13 19:25:04.335  INFO 29208 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPageUsingPOST_1
+2023-11-13 19:25:04.339  INFO 29208 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addCartUsingGET_2
+2023-11-13 19:25:04.342  INFO 29208 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addCartUsingPOST_2
+2023-11-13 19:25:04.363  INFO 29208 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByNameUsingGET_1
+2023-11-13 19:25:04.365  INFO 29208 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByNameUsingPOST_1
+2023-11-13 19:25:04.368  INFO 29208 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: isLoginUsingGET_1
+2023-11-13 19:25:04.370  INFO 29208 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: isLoginUsingPOST_1
+2023-11-13 19:25:04.373  INFO 29208 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingGET_1
+2023-11-13 19:25:04.375  INFO 29208 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingPOST_1
+2023-11-13 19:25:04.467  INFO 29208 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2023-11-13 19:25:04.476  INFO 29208 --- [restartedMain] com.yc.ResApp                            : Started ResApp in 6.833 seconds (JVM running for 8.169)
+2023-11-13 19:25:17.344  INFO 29208 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-13 19:25:17.344  INFO 29208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-13 19:25:17.345  INFO 29208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-13 19:25:17.819  INFO 29208 --- [http-nio-8080-exec-10] com.yc.biz.ResfoodBizImpl                : 总记录数：19
+2023-11-13 19:25:17.819  INFO 29208 --- [http-nio-8080-exec-10] com.yc.biz.ResfoodBizImpl                : 总页数：4
+2023-11-13 19:25:17.819  INFO 29208 --- [http-nio-8080-exec-10] com.yc.biz.ResfoodBizImpl                : 当前页码：1
+2023-11-13 19:25:32.173  INFO 29208 --- [http-nio-8080-exec-6] com.yc.biz.ResfoodBizImpl                : 总记录数：19
+2023-11-13 19:25:32.173  INFO 29208 --- [http-nio-8080-exec-6] com.yc.biz.ResfoodBizImpl                : 总页数：4
+2023-11-13 19:25:32.173  INFO 29208 --- [http-nio-8080-exec-6] com.yc.biz.ResfoodBizImpl                : 当前页码：1
+2023-11-13 19:25:44.466  INFO 29208 --- [http-nio-8080-exec-6] com.yc.biz.ResfoodBizImpl                : 总记录数：19
+2023-11-13 19:25:44.467  INFO 29208 --- [http-nio-8080-exec-6] com.yc.biz.ResfoodBizImpl                : 总页数：4
+2023-11-13 19:25:44.467  INFO 29208 --- [http-nio-8080-exec-6] com.yc.biz.ResfoodBizImpl                : 当前页码：1
+2023-11-13 19:25:47.920  INFO 29208 --- [http-nio-8080-exec-8] com.yc.biz.ResfoodBizImpl                : 总记录数：19
+2023-11-13 19:25:47.921  INFO 29208 --- [http-nio-8080-exec-8] com.yc.biz.ResfoodBizImpl                : 总页数：4
+2023-11-13 19:25:47.921  INFO 29208 --- [http-nio-8080-exec-8] com.yc.biz.ResfoodBizImpl                : 当前页码：1
+2023-11-13 19:25:53.229  INFO 29208 --- [http-nio-8080-exec-9] com.yc.biz.ResfoodBizImpl                : 总记录数：19
+2023-11-13 19:25:53.229  INFO 29208 --- [http-nio-8080-exec-9] com.yc.biz.ResfoodBizImpl                : 总页数：4
+2023-11-13 19:25:53.230  INFO 29208 --- [http-nio-8080-exec-9] com.yc.biz.ResfoodBizImpl                : 当前页码：1
+2023-11-13 19:58:45.005  INFO 29208 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_382]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_382]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_382]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_382]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379) ~[na:1.8.0_382]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_382]
+
+2023-11-13 19:58:45.011  INFO 29208 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_382]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_382]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_382]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_382]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379) ~[na:1.8.0_382]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_382]
+
+2023-11-13 19:58:45.239  INFO 29208 --- [lettuce-eventExecutorLoop-1-4] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was /127.0.0.1:6379
+2023-11-13 19:58:45.266  INFO 29208 --- [lettuce-eventExecutorLoop-1-5] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was /127.0.0.1:6379
+2023-11-13 19:58:47.775  WARN 29208 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2023-11-13 19:58:47.868  WARN 29208 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2023-11-13 19:58:50.355  INFO 29208 --- [lettuce-eventExecutorLoop-1-9] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was 127.0.0.1:6379
+2023-11-13 19:58:52.453  INFO 29208 --- [lettuce-eventExecutorLoop-1-12] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was 127.0.0.1:6379
+2023-11-13 19:58:52.593  WARN 29208 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
+2023-11-13 19:58:54.784  WARN 29208 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379

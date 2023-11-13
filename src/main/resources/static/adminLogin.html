@@ -1,10 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>后台登录页</title>
 </head>
+
 <body>
-$END$
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/signin.css" rel="stylesheet">
+
+<div class="container" id="app">
+
+    <form class="form-signin">
+        <h2 class="form-signin-heading">管理员登录</h2>
+        <label for="inputEmail" class="sr-only">用户名</label>
+        <input type="text" id="inputEmail" class="form-control" placeholder="请输入用户名" required autofocus v-model="raname">
+        <label for="inputPassword" class="sr-only">密码</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="请输入密码" required v-model="rapwd">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="remember-me"> 记住我
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="button" @click="login()">登录</button>
+    </form>
+
+</div> <!-- /container -->
+
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
 </body>
+<script src="/js/jquery-1.9.1.js"></script>
+<script src="/js/vue.js"></script>
+<script src="/js/axios.js"></script>
+<script type="text/javascript">
+    var vm=new Vue({
+        el:"#app",
+        data:{
+            raname: '',
+            rapwd: ''
+        },
+        computed:{},
+        methods:{
+            login(){
+                var params = new URLSearchParams();
+                let _this = this;
+                params.append("raname",_this.raname);
+                params.append("rapwd",_this.rapwd);
+                // let username = document.getElementById("username").value;
+                // let password = document.getElementById("pwd").value;
+                axios.post("/resadmin/login",params).then(res=> {
+                    var jsonModel = res.data;
+                        if(jsonModel.code == 1){
+                            alert("登录成功！");
+                            window.open("/back/adminBoard.html");
+                        }else{
+                            alert("登录失败！");
+                        }
+                    console.info(res.data);
+                });
+
+            },
+
+        },
+        mounted:function (){},
+        created(){}
+
+    });
+</script>
 </html>

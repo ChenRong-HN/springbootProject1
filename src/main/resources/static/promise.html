@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>promise对象</title>
 </head>
 <body>
-$END$
 </body>
+<script>
+  var a = new Promise(function (resolve, reject){ // resolve 执行成功回调的函数  reject 执行失败回调的函数
+    resolve(1);
+  }).then(function (value){
+    console.info(value);
+    return value; // 要连续发请求的话，需要返回值    这个value值被包装成promise对象
+  }).then(function (value){
+    console.info((value*3).toFixed(2));
+  }).then(function (value){
+    console.info(value+1); // 输出un，上一回调函数中没有返回值
+  }).catch(function (value){
+      console.info("异常");
+  })
+</script>
 </html>

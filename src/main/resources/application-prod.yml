@@ -1,0 +1,33 @@
+server:
+  port: 9999
+nginx:
+  address: http://localhost:8888/    #用来拼接成图片的地址，以备将来chrome访问，这个容器中的nginx
+spring:
+  session:
+    store-type: redis   #将session保存到Redis中
+  redis:
+    database: 1     #Redis默认0-15 总共16个库，这里采用1库
+    host: 172.18.0.3    #到docker后修改，还要加上用户名和密码，且Redis中配置访问的主机的ip，以提高安全性
+    password: a
+    port: 6379
+    timeout: 5000
+  dataSource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.18.0.2:3306/res?serverTimezone=UTC
+    userName: root
+    password: a
+    type: com.alibaba.druid.pool.DruidDataSource
+
+logging:
+  level:
+    root: info
+    org.springframework: info
+    com.apache: info
+  file:
+    path: logs/
+fdfs:
+  connect-timeout: 2000
+  so-timeout: 3000
+  tracker-list:
+    - 172.18.0.4:22122  #与tracker一致
+
